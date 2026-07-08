@@ -1,4 +1,14 @@
 ---
+5.0.1:
+  api: 5.0.1
+  state:
+    release: stable
+    api: stable
+  date: 2026-07-08
+  license:
+    identifier: GPL-2.0-only
+    uri: https://spdx.org/licenses/GPL-2.0-only.html
+  notes: "refactor(kronolith): pass series timezone fallback to EAS getTimezone()\nMerge pull request #71 from jcdelepine/fix-parenthesis\nfix(prefs): Fix missing closing parenthesis in \"Basic view only\" labels\nMerge pull request #67 from pierrefardel/feature/wcag-contrast\ntest(kronolith): add foreground color WCAG contrast unit tests\nFall back to brightness() when contrastColor() is unavailable\nUse WCAG contrast ratio for calendar foreground color\nFix two crashes in editCalendar()"
 5.0.0:
   api: 5.0.0
   state:
