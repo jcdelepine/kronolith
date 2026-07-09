@@ -2124,7 +2124,7 @@ class Kronolith
         }
 
         // Process user permissions.
-        $u_names = Util::getFormData('u_names');
+        $u_names = Util::getFormData('u_names') ?: [];
         $u_show = Util::getFormData('u_show');
         $u_read = Util::getFormData('u_read');
         $u_edit = Util::getFormData('u_edit');
@@ -2188,7 +2188,7 @@ class Kronolith
         }
 
         // Process group permissions.
-        $g_names = Util::getFormData('g_names');
+        $g_names = Util::getFormData('g_names') ?: [];
         $g_show = Util::getFormData('g_show');
         $g_read = Util::getFormData('g_read');
         $g_edit = Util::getFormData('g_edit');
