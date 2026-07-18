@@ -29,7 +29,7 @@ authors:
     active: false
     role: lead
 version:
-  release: 5.0.1
+  release: 5.0.2
   api: 5.0.0alpha1
 state:
   release: stable
@@ -110,7 +110,7 @@ keywords:
   - calendar
 ci-platform:
   '8.1':
-    - php: '>=8.1'
+    - php: ^8.1
     - composer-plugin-api: ^2.2.0
     - ext-bcmath
     - ext-ctype
@@ -135,7 +135,7 @@ ci-platform:
     - ext-xmlwriter
     - lib-libxml
   '8.2':
-    - php: '>=8.1'
+    - php: ^8.2
     - composer-plugin-api: ^2.2.0
     - ext-bcmath
     - ext-ctype
@@ -160,7 +160,7 @@ ci-platform:
     - ext-xmlwriter
     - lib-libxml
   '8.3':
-    - php: '>=8.1'
+    - php: ^8.3
     - composer-plugin-api: ^2.2.0
     - ext-bcmath
     - ext-ctype
@@ -185,7 +185,7 @@ ci-platform:
     - ext-xmlwriter
     - lib-libxml
   '8.4':
-    - php: '>=8.1'
+    - php: ^8.4
     - composer-plugin-api: ^2.2.0
     - ext-bcmath
     - ext-ctype
@@ -210,7 +210,7 @@ ci-platform:
     - ext-xmlwriter
     - lib-libxml
   '8.5':
-    - php: '>=8.1'
+    - php: ^8.5
     - composer-plugin-api: ^2.2.0
     - ext-bcmath
     - ext-ctype
@@ -235,7 +235,7 @@ ci-platform:
     - ext-xmlwriter
     - lib-libxml
   '8.6':
-    - php: '>=8.1'
+    - php: ^8.6
     - composer-plugin-api: ^2.2.0
     - ext-bcmath
     - ext-ctype
