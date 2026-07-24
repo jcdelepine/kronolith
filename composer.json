@@ -25,7 +25,7 @@
         "caldav",
         "calendar"
     ],
-    "time": "2026-07-18",
+    "time": "2026-07-24",
     "repositories": [],
     "require": {
         "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0 || ^3 || ^2",
@@ -70,7 +70,7 @@
     "require-dev": {
         "horde/nag": "^5 || dev-FRAMEWORK_6_0",
         "horde/timeobjects": "^3 || dev-FRAMEWORK_6_0",
-        "horde/activesync": "^3 || dev-FRAMEWORK_6_0",
+        "horde/activesync": "^3.3 || dev-FRAMEWORK_6_0",
         "horde/backup": "^2 || dev-FRAMEWORK_6_0",
         "horde/db": "^3 || dev-FRAMEWORK_6_0",
         "horde/openxchange": "^2 || dev-FRAMEWORK_6_0",
@@ -80,7 +80,7 @@
     "suggest": {
         "horde/nag": "^5 || dev-FRAMEWORK_6_0",
         "horde/timeobjects": "^3 || dev-FRAMEWORK_6_0",
-        "horde/activesync": "^3 || dev-FRAMEWORK_6_0",
+        "horde/activesync": "^3.3 || dev-FRAMEWORK_6_0",
         "horde/backup": "^2 || dev-FRAMEWORK_6_0",
         "horde/db": "^3 || dev-FRAMEWORK_6_0",
         "horde/openxchange": "^2 || dev-FRAMEWORK_6_0",

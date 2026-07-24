@@ -1,4 +1,14 @@
 ---
+5.0.3:
+  api: 5.0.3
+  state:
+    release: stable
+    api: stable
+  date: 2026-07-24
+  license:
+    identifier: GPL-2.0-only
+    uri: https://spdx.org/licenses/GPL-2.0-only.html
+  notes: "chore: Bump minimum activesync version to 3.3 (but still optional & dev dependency)\nfix(dynamic): enable ghosting for all-day events so cross-day drops resolve\nfix(dynamic): send resize payload as naive local-time strings\nrefactor(dynamic): port drag/drop to pointerdrag toolkit\nfix(l10n): use sentence case for 'Nouveau calendrier'\nfix(l10n): correct French calendar strings\nExpose calendar color as a CSS custom property (--cal-color)"
 5.0.2:
   api: 5.0.2
   state:
